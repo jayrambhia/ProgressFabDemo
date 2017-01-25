@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fenchtose.progressfabdemo.MainActivity">
+
+    <com.fenchtose.progressfabdemo.progressfab.ProgressFloatingActionButton
+        android:id="@+id/fab"
+        app:fbb_progressColor="@color/fab_progress_color"
+        app:fbb_noprogressColor="@android:color/transparent"
+        app:fbb_ring_width="@dimen/fab_progress_ring_width"
+        app:fbb_bg_ring_width="@dimen/fab_progress_no_ring_Width"
+        app:fbb_animate_color="true"
+        app:fbb_change_color="true"
+        app:fbb_normalColor="@color/colorPrimary"
+        app:fbb_inprogressColor="@color/theme_app"
+        android:layout_marginBottom="12dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_camera_alt_white_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UnusedAttribute" />
+
+    <com.fenchtose.progressfabdemo.progressfab.ProgressFloatingActionButton
+        android:id="@+id/fab2"
+        app:fbb_progressColor="@color/fab_progress_color"
+        app:fbb_noprogressColor="@android:color/transparent"
+        app:fbb_ring_width="@dimen/fab_progress_ring_width"
+        app:fbb_bg_ring_width="@dimen/fab_progress_no_ring_Width"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_camera_alt_white_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UnusedAttribute" />
+
+</RelativeLayout>

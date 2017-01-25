@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1c1c1c</color>
+    <color name="colorPrimaryDark">#ff151515</color>
+    <color name="colorAccent">@color/theme_app</color>
+
+    <color name="theme_app">#ffF95B4B</color>
+    <color name="theme_app_darker">#fff3320e</color>
+    <color name="theme_app_lighter">#ffff8f81</color>
+
+    <color name="fab_progress_color">@color/theme_app</color>
+    <color name="fab_no_progress_color">@color/theme_app_darker</color>
+
+</resources>

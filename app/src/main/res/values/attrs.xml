@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressFloatingActionButton">
+        <attr name="android:src" />
+        <attr name="android:indeterminate"/>
+        <attr name="android:progress"/>
+        <attr name="android:max"/>
+        <attr name="android:indeterminateDuration"/>
+        <attr name="fbb_progressColor" format="color"/>
+        <attr name="fbb_noprogressColor" format="color"/>
+        <attr name="fbb_autoStart" format="boolean" />
+        <attr name="fbb_animSteps" format="integer" />
+        <attr name="fbb_progressWidthRatio" format="float" />
+        <attr name="fbb_endBitmap" format="reference" />
+        <attr name="fbb_showEndBitmap" format="boolean" />
+        <attr name="fbb_hideProgressOnComplete" format="boolean" />
+        <attr name="fbb_showShadow" format="boolean" />
+        <attr name="fbb_ring_width" format="dimension"/>
+        <attr name="fbb_bg_ring_width" format="dimension"/>
+        <attr name="fbb_normalColor" format="color"/>
+        <attr name="fbb_inprogressColor" format="color"/>
+        <attr name="fbb_change_color" format="boolean"/>
+        <attr name="fbb_animate_color" format="boolean"/>
+    </declare-styleable>
+</resources>
